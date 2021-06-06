@@ -3,7 +3,7 @@ EEG feature engineering for epileptic seizure detection
 
 This repo records the the MATLAB codes for the most challenging part, EEG feature engineering, for the epileptic seizure-detection task. These EEG features have been used by the published papers in Citation.
 
-**EEG feature domain**  
+**EEG feature domains**  
 | Feature No.   | Feature domains                                  | Description           |
 | :----:| :----:                                   | :----:          |
 | 1-4   | basic statistics    | mean amptitude, std amptitude, zero-cross times, range of amptitude|
@@ -11,21 +11,27 @@ This repo records the the MATLAB codes for the most challenging part, EEG featur
 | 17-28   | time-freq domain | mean and std of coefficients of discrete wavelet transform(DWT) on six freq bands|
 | 29-31   | nonlinear features  | ApEn, L-Z complexity, Hurst exponential|
 | 32-43   | spatio-temporal domain   | phase lock values on six freq bands and brain areas|
-| 44-47   | synchronization measure (with fime/freq shift)   | dynamic wrapping in the freq and time domains|
+| 44-47   | synchronization measure (with fime/freq shift)   | dynamic warpping in the time and freq domains|
 | 48-62   | complex-network features   | features extracted from the time & freq -invariant networks |
 
 Feature 1-47 refer to [paper](https://www.sciencedirect.com/science/article/abs/pii/S1746809417300344); feature 48-62 fefer to [paper](https://www.sciencedirect.com/science/article/abs/pii/S0165027017302510).
 
 
-**EEG feature extraction**
-The EEG feature mapping from EEG signals is shown below.
+**EEG feature extraction**  
+First, download this repo by:
+```
+git clone git@github.com:ieeeWang/EEG-feature-seizure-detection.git
+```
+Second, run 'FeatureExtractDemo.m', which performs feature enginnering on 4 types of seizure EEG segments.
+Then, to plot the EEG segments and EEG features by using 'plot-SEZseg.m' and 'plot_Fv'.
+Finally, the EEG feature mapping from EEG signals will looks as below.
 <div>
     <div style="text-align:center">
     <img width=99%device-width src="Figs/SEZ_types5.png">
 </div>
 
 
-**Citation**
+**Citation**    
 If you find this repository helpful, please cite our work:  
 ```
 @article{wang2017seizure,
