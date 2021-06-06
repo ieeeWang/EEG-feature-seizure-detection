@@ -1,5 +1,4 @@
-# EEG-feature-seizure-detection
-EEG feature engineering for epileptic seizure detection
+# EEG feature engineering for epileptic seizure detection
 
 This repo records the the MATLAB codes for the most challenging part, EEG feature engineering, for the epileptic seizure-detection task. These EEG features have been used by the published papers in Citation.
 
@@ -23,12 +22,13 @@ First, download this repo by:
 git clone git@github.com:ieeeWang/EEG-feature-seizure-detection.git
 ```
 Second, run 'FeatureExtractDemo.m', which performs feature enginnering on 4 types of seizure EEG segments.
-Then, to plot the EEG segments and EEG features by using 'plot-SEZseg.m' and 'plot_Fv'.
+Then, plot the EEG segments and EEG features by using 'plot-SEZseg.m' and 'plot_Fv'.
 Finally, the EEG feature mapping from EEG signals will looks as below.
 <div>
     <div style="text-align:center">
     <img width=99%device-width src="Figs/SEZ_types5.png">
 </div>
+
 
 
 **Citation**    
