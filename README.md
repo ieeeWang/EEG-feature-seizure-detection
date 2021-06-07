@@ -21,9 +21,16 @@ First, download this repo by:
 ```
 git clone git@github.com:ieeeWang/EEG-feature-seizure-detection.git
 ```
-Second, run 'FeatureExtractDemo.m', which performs feature enginnering on 4 types of seizure EEG segments.
-Then, plot the EEG segments and EEG features by using 'plot-SEZseg.m' and 'plot_Fv'.    
-Finally, the EEG feature mapping from EEG signals will looks as below.
+Second, we here provide a demo for performing feature enginnering on four types of seizure EEG segments by run:
+```
+FeatureExtractDemo.m
+```
+Then, plot the EEG segments and EEG features by run:
+```
+plot-SEZseg.m
+plot_Fv.m
+``` 
+Finally, the EEG feature mapping from EEG signals will look as below.
 <div>
     <div style="text-align:center">
     <img width=99%device-width src="Figs/SEZ_types5.png">
