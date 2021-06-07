@@ -14,7 +14,7 @@ This repo records the the MATLAB codes for the most challenging part, EEG featur
 | 48-62   | complex-network features   | features extracted from the time & freq -invariant networks |
 
 Feature 1-47 refer to [paper](https://www.sciencedirect.com/science/article/abs/pii/S1746809417300344); feature 48-62 fefer to [paper](https://www.sciencedirect.com/science/article/abs/pii/S0165027017302510).
-
+The PhD thesis of this work is at [here](https://pure.tue.nl/ws/files/98351534/20180621_Wang.L.pdf).
 
 **EEG feature extraction**  
 First, download this repo by:
